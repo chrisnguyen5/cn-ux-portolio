@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { BackgroundBeamsWithCollisionDemo } from "@/components/BackgroundBeamsWithCollisionDemo";
-import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
+
 
 export default function Home() {
   return (
