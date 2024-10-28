@@ -1,23 +1,26 @@
 import Image from "next/image";
 import { CompareDemo } from "@/components/CompareDemo";
 import { CoverDemo } from "@/components/CoverDemo";
-import { FlipWordsDemo } from "@/components/FlipWordsDemo";
 import { TextRevealCardPreview } from "@/components/TextRevealCardPreview";
+import { AuroraBackgroundDemo } from "@/components/AuroraBackgroundDemo";
+import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
+
 
 export default function Home() {
   return (
-    <div className="grid  items-center justify-items-center min-h-screen p-8 pb-20">
+    <div className="grid  items-center justify-items-center min-h-screen pb-20">
       <main className="flex flex-col items-center sm:items-start">
-      <FlipWordsDemo />
-      <CoverDemo />
-      <CompareDemo />
-      <TextRevealCardPreview />
-      </main>
+      <AuroraBackgroundDemo />
+       </main>
+     <CoverDemo /> 
+   <LinkPreviewDemo />
+      
+      
    
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://chrisnguyen.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,26 +31,26 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+          Resume
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.github.com/chrisnguyen5"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/window.svg"
+            src="https://nextjs.org/icons/github.svg"
             alt="Window icon"
             width={16}
             height={16}
           />
-          Examples
+          Github
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/chrisnguyen2"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -58,9 +61,9 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          LinkedIn
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
