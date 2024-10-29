@@ -20,7 +20,7 @@ export function ThreeDCardDemo() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          A landing page that caters to targeted audience.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -56,7 +56,7 @@ export function ThreeDCardDemo() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Online catalog for training and maintenance.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -92,7 +92,7 @@ export function ThreeDCardDemo() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Redesigned E-commerce platform.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
