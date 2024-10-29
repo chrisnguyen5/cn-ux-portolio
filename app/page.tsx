@@ -6,7 +6,9 @@ import { AuroraBackgroundDemo } from "@/components/AuroraBackgroundDemo";
 import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
-
+import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
+import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
+import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <AuroraBackgroundDemo />
        </main>
      <CoverDemo /> 
+    <TypewriterEffectSmoothDemo />
      <ThreeDCardDemo />
    <LinkPreviewDemo />
       
