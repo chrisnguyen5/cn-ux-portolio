@@ -4,6 +4,8 @@ import { CoverDemo } from "@/components/CoverDemo";
 import { TextRevealCardPreview } from "@/components/TextRevealCardPreview";
 import { AuroraBackgroundDemo } from "@/components/AuroraBackgroundDemo";
 import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
+import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
+import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 
 
 export default function Home() {
@@ -13,6 +15,7 @@ export default function Home() {
       <AuroraBackgroundDemo />
        </main>
      <CoverDemo /> 
+     <ThreeDCardDemo />
    <LinkPreviewDemo />
       
       
