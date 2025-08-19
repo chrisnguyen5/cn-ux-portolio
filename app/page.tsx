@@ -5,71 +5,29 @@ import { TextRevealCardPreview } from "@/components/TextRevealCardPreview";
 import { AuroraBackgroundDemo } from "@/components/AuroraBackgroundDemo";
 import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
+import { ThreeDCardDemo2 } from "@/components/ThreeDCardDemo2";
+import { ThreeDCardDemo3 } from "@/components/ThreeDCardDemo3";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
 import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+
 
 export default function Home() {
   return (
     <div className="grid  items-center justify-items-center min-h-screen pb-20">
       <main className="flex flex-col items-center sm:items-start">
-      <AuroraBackgroundDemo />
-       </main>
-     <CoverDemo /> 
-    <TypewriterEffectSmoothDemo />
-     <ThreeDCardDemo />
-   <LinkPreviewDemo />
-      
-      
-   
-      {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://chrisnguyen.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Resume
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.github.com/chrisnguyen5"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/github.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Github
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/chrisnguyen2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          LinkedIn
-        </a>
-      </footer> */}
+        <AuroraBackgroundDemo />
+      </main>
+      <CoverDemo />
+      <TypewriterEffectSmoothDemo />
+      <div className="flex flex-col md:flex-row gap-2">
+        <ThreeDCardDemo />
+        <ThreeDCardDemo2 />
+        <ThreeDCardDemo3 />
+      </div>
+      <LinkPreviewDemo />
     </div>
   );
 }
