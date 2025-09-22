@@ -36,7 +36,7 @@ export function ThreeDCardDemo2() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="http://staging1.rowdydesign.com/clients/boeing/flight-services-catalog/current/flight-services/"
+            href="https://chrisnguyen.vercel.app/projects/boeing"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
