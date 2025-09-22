@@ -12,6 +12,7 @@ import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
 import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { LayoutGridDemo } from "@/components/LayoutGridDemo";
 
 
 export default function Home() {
