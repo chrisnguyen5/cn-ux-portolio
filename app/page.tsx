@@ -16,6 +16,7 @@ import { LayoutGridDemo } from "@/components/LayoutGridDemo";
 import { GlowingEffectDemo } from "@/components/GlowingEffectDemo";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { WorldMapDemo } from "@/components/WorldMapDemo";
+import { BackgroundRippleEffectDemo } from "@/components/BackgroundRippleEffectsDemo";
 
 
 export default function Home() {
@@ -32,6 +33,9 @@ export default function Home() {
         <ThreeDCardDemo2 />
         <ThreeDCardDemo3 />
       </div>
+      <div className="flex flex-col m-4">
+       <TextGenerateEffectDemo />
+       </div>
       <GlowingEffectDemo />
       <LinkPreviewDemo />
     </div>
