@@ -13,6 +13,9 @@ import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
 import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { LayoutGridDemo } from "@/components/LayoutGridDemo";
+import { GlowingEffectDemo } from "@/components/GlowingEffectDemo";
+import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
+import { WorldMapDemo } from "@/components/WorldMapDemo";
 
 
 export default function Home() {
@@ -21,6 +24,7 @@ export default function Home() {
       <main className="flex flex-col items-center sm:items-start">
         <AuroraBackgroundDemo />
       </main>
+      <WorldMapDemo/>
       <CoverDemo />
       <TypewriterEffectSmoothDemo />
       <div className="flex flex-col md:flex-row gap-2">
@@ -28,6 +32,7 @@ export default function Home() {
         <ThreeDCardDemo2 />
         <ThreeDCardDemo3 />
       </div>
+      <GlowingEffectDemo />
       <LinkPreviewDemo />
     </div>
   );
