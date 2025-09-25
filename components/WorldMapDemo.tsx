@@ -7,9 +7,9 @@ export function WorldMapDemo() {
     <div className=" py-40 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Available for{" "}
+          Based in Southern{" "}
           <span className="text-neutral-400">
-            {"Remote".split("").map((word, idx) => (
+            {"California".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
@@ -21,10 +21,9 @@ export function WorldMapDemo() {
               </motion.span>
             ))}
           </span>
-          {" "}work
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-          I constantly find myself with more free time than expect and would like to fulfill my time with productity.
+          Available to work remotely anywhere.
         </p>
       </div>
       <WorldMap

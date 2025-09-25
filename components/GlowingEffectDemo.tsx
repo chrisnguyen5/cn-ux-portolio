@@ -24,7 +24,7 @@ export function GlowingEffectDemo() {
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
         icon={<FileCode className="h-4 w-4 text-black dark:text-neutral-400" />}
         title="HTML, CSS, & JS"
-        description="Font-end development"
+        description="Front-end development"
       />
 
       <GridItem
