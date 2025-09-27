@@ -17,6 +17,7 @@ import { GlowingEffectDemo } from "@/components/GlowingEffectDemo";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { WorldMapDemo } from "@/components/WorldMapDemo";
 import { BackgroundRippleEffectDemo } from "@/components/BackgroundRippleEffectsDemo";
+import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
       <main className="flex flex-col items-center sm:items-start">
         <AuroraBackgroundDemo />
       </main>
-      <WorldMapDemo/>
+      <HeroScrollDemo/>
       <CoverDemo />
       <TypewriterEffectSmoothDemo />
       <div className="flex flex-col md:flex-row gap-2">
