@@ -9,16 +9,16 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Based in southern California <br />
+              Based in southern California &<br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                available remotely anywhere
+                available anywhere
               </span>
             </h1>
           </>
         }
       >
         <img
-          src={`https://www.pexels.com/download/video/32055581/`}
+          src={`https://www.pexels.com/download/video/31209331/`}
           alt="hero"
           height={720}
           width={1400}
