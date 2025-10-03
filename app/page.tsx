@@ -7,6 +7,7 @@ import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
 import { ThreeDCardDemo2 } from "@/components/ThreeDCardDemo2";
 import { ThreeDCardDemo3 } from "@/components/ThreeDCardDemo3";
+import { ThreeDCardDemo4 } from "@/components/ThreeDCardDemo4";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
@@ -30,9 +31,12 @@ export default function Home() {
       <CoverDemo />
       <TypewriterEffectSmoothDemo />
       <div className="flex flex-col md:flex-row gap-2">
+        <ThreeDCardDemo4 />
         <ThreeDCardDemo />
         <ThreeDCardDemo2 />
-        <ThreeDCardDemo3 />
+      </div>
+       <div className="flex flex-col md:flex-row gap-2">
+         <ThreeDCardDemo3 />
       </div>
       <div className="flex flex-col m-4">
        <TextGenerateEffectDemo />

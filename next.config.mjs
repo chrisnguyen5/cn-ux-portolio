@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['images.unsplash.com', 'api.microlink.io', 'chrisnguyen.x10host.com'],
+        domains: ['images.unsplash.com', 'api.microlink.io', 'chrisnguyen.x10host.com', 'public.boxcloud.com', 'app.box.com'],
     },
 };
 

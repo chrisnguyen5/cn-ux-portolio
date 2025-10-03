@@ -19,14 +19,14 @@ export function LinkPreviewDemo() {
       </p>
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
         My{" "}
-        <LinkPreview url="https://chrisnguyen.vercel.app/contact" className="font-bold">
+        <LinkPreview url="https://chrisnguyen.vercel.app/contact" className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">
           Email
         </LinkPreview>,{" "} 
-        <LinkPreview url="https://github.com/chrisnguyen5" className="font-bold">
+        <LinkPreview url="https://github.com/chrisnguyen5" className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">
           GitHub
         </LinkPreview>
         ,{" "}and{" "}
-        <LinkPreview url="https://www.linkedin.com/in/chrisnguyen2" className="font-bold">
+        <LinkPreview url="https://www.linkedin.com/in/chrisnguyen2" className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">
           LinkedIn
         </LinkPreview>{" "}
         are other great ways to connect as well.
