@@ -16,12 +16,12 @@ export function TypewriterEffectSmoothDemo() {
     },
     {
       text: "see details.",
-      className: "text-fuchsia-600 dark:text-blue-500",
+      className: "bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500",
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[20rem]  ">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+    <div className="flex flex-col items-center justify-center h-[20rem]">
+      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base ">
         Below are some projects that I previously worked on.
       </p>
       <TypewriterEffectSmooth words={words} />
