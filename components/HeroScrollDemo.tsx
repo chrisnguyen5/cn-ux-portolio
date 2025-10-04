@@ -9,7 +9,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-4xl font-medium text-neutral-700 dark:text-white">
-              <span className="">Based in SoCal & available to work</span><br />
+              <span className="font-mono">Based in SoCal & available to work</span><br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-neutral-800 font-serif">
                 remotely anywhere
               </span>

@@ -52,11 +52,23 @@ export const TextGenerateEffect = ({
 
   return (
     <div className={cn("font-bold", className)}>
-      <div className="mt-4 mb-2">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+      <motion.div
+        initial={{ opacity: 0.0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeIn",
+        }}
+        className="relative flex flex-col gap-4 items-center justify-center px-8"
+      >
+       <div className="mt-4 mb-2">
+        <div className="font-serif dark:text-white text-2xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
+      </motion.div>
+      
     </div>
   );
 };

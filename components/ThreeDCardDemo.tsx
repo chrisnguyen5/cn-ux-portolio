@@ -37,7 +37,7 @@ export function ThreeDCardDemo() {
             as={Link}
             href="https://chrisnguyen.vercel.app/projects/yamaha"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xs font-mono dark:text-white"
           >
             View details
           </CardItem>

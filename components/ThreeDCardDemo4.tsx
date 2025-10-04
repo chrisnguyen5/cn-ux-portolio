@@ -24,7 +24,7 @@ export function ThreeDCardDemo4() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="https://public.boxcloud.com/api/2.0/internal_files/2004668732863/versions/2212863510463/representations/png_paged_2048x2048/content/1.png?access_token=1!Ilp_rb2WOyjxiEgHIMaEaQ4utSb7tKiMA8GwlsIw33bfijq0NZbmnEXrcy2kCjG4BcpZMxrvwf8DM85hU3e116WO9cVURy2gwXvelD6cFRgPcG11AxHvc1GI2VehoHDhogpCVoSgtS3m4i2wWbIhMAiL2tEldQz-YuM2HR-uSVUemB6pCJM8SWmTggompRS3WblP-WHGBqKr5Dt3mR4hab7mULEdLDv-8PpH2MgrI6WtzQaFfrqKnK3qz2YxjpmDKFbust5RAkiGme5nwBvzX2IijxwBB0jw6HzizcOuTpmH6ylSgPkr3PH3UsrXhzQnja36VyvU1WyPOhTm1U-OpniWNxb-gx4wEoX_g7nXOsoMTELe1QwCuZ9j-nyeYZ9SwKUKgywWlLB7y2pO8AzoBEmq6hxFre3XQ9YwMmYQxYG1gnxE-lt6iWsFBak8yXmkgP067W5yUAVDYdiA7EssHGpdBexkMV_dPvnFpuO4eK_nnecZeXzhTjeVzhUu-SAfdqKi0Jd2Qubyur4qlmP5LY8rdlFDLfOBOef7mJrpnbd3MbfbEoIbwl0zuJMWJa166y-_1Deqj-xadYUfTtwqwL2z_tKwd5oADp62tXSK6WOo6lSmvtzwNmYu0J2MWNnWdadSCjIYVZW6GbDwL9OMIFUcdCI5tbTA3OwJEjEShbOhuksRAbKEnctkD7yriPmxQtmT8tdXoL0OHM8Tl8btLSU3T3MNC4VsiA1X4ZDoq_oGCopO3sVHCWDXD4e_OBB9X-aA4gIDxhyy3l3DJFfwoK6KeAJ8M_M.&box_client_name=box-content-preview&box_client_version=3.12.0"
+            src="http://chrisnguyen.x10host.com/images/portfolio/scl4.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -37,7 +37,7 @@ export function ThreeDCardDemo4() {
             as={Link}
             href="https://www.figma.com/design/6c73XLLY3D4OD5IrTCc2bR/AAA-Design-System?node-id=22896-11017&t=mvGKFB6ZUSS78vgT-1"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xs font-mono dark:text-white"
           >
             View details
           </CardItem>
