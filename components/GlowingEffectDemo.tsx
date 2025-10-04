@@ -8,35 +8,35 @@ export function GlowingEffectDemo() {
     <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
-        icon={<Figma className="h-4 w-4 text-violet-700" />}
+        icon={<Figma className="h-4 w-4 text-indigo-800" />}
         title="Figma"
         description="Design & UX tool"
       />
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
-        icon={<Framer className="h-4 w-4 text-violet-700" />}
+        icon={<Framer className="h-4 w-4 text-indigo-800" />}
         title="Motion"
         description="Animation with React"
       />
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
-        icon={<FileCode className="h-4 w-4 text-violet-700" />}
+        icon={<FileCode className="h-4 w-4 text-indigo-800" />}
         title="HTML, CSS, & JS"
         description="Front-end development"
       />
 
       <GridItem
         area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
-        icon={<Sparkles className="h-4 w-4 text-violet-700" />}
+        icon={<Sparkles className="h-4 w-4 text-indigo-800" />}
         title="AI tools"
         description="Claude, Cursor, ChatGPT, Nano Banana"
       />
 
       <GridItem
         area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
-        icon={<GitBranch className="h-4 w-4 text-violet-700" />}
+        icon={<GitBranch className="h-4 w-4 text-indigo-800" />}
         title="Version Control"
         description="Github, BitBucket, Git"
       />
@@ -70,10 +70,10 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
               {icon}
             </div>
             <div className="space-y-3">
-              <h3 className="-tracking-4 pt-0.5 font-serif text-xl/[1.375rem] font-semibold text-balance text-gray-800 md:text-2xl/[1.875rem] dark:text-white">
+              <h3 className="-tracking-4 pt-0.5 font-mono text-xl/[1.375rem] font-semibold text-balance text-gray-800 md:text-2xl/[1.875rem] dark:text-white">
                 {title}
               </h3>
-              <h2 className="font-mono text-sm/[1.125rem] text-gray-500 md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
+              <h2 className="font-serif text-sm/[1.125rem] text-gray-500 md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
                 {description}
               </h2>
             </div>
