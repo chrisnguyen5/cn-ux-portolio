@@ -1,12 +1,17 @@
+"use client";
+
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
-  IconBrandX,
+  IconBrandLinkedin,
   IconExchange,
   IconHome,
   IconNewSection,
   IconTerminal2,
+  IconFileCv,
+  IconMailHeart,
+  IconAppWindow
 } from "@tabler/icons-react";
 import Image from "next/image";
 
@@ -21,56 +26,44 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Products",
+      title: "Projects",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconAppWindow className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://chrisnguyen.vercel.app/projects",
     },
     {
-      title: "Components",
+      title: "Contact",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconMailHeart className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://chrisnguyen.vercel.app/contact",
     },
     {
-      title: "Aceternity UI",
+      title: "Resume",
       icon: (
-        <Image
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
+        <IconFileCv className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: "https://chrisnguyen.vercel.app/resume",
     },
 
     {
-      title: "Twitter",
+      title: "Linkedin",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/chrisnguyen2",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/chrisnguyen5",
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex items-center justify-center h-[8rem] w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}

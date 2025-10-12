@@ -16,7 +16,7 @@ export function TypewriterEffectSmoothDemo() {
     },
     {
       text: "see details.",
-      className: "bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500",
+      className: "bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500 font-serif",
     },
   ];
   return (

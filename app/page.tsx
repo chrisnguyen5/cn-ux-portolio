@@ -19,6 +19,8 @@ import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { WorldMapDemo } from "@/components/WorldMapDemo";
 import { BackgroundRippleEffectDemo } from "@/components/BackgroundRippleEffectsDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
+import { FloatingDockDemo } from "@/components/FloatingDockDemo";
+import { FollowingPointerDemo } from "@/components/FollowingPointerDemo";
 
 
 export default function Home() {
@@ -43,6 +45,7 @@ export default function Home() {
        </div>
       <GlowingEffectDemo />
       <LinkPreviewDemo />
+      <FloatingDockDemo />
     </div>
   );
 }

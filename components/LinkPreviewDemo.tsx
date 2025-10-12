@@ -15,7 +15,7 @@ export function LinkPreviewDemo() {
             }}
             className="relative flex flex-col gap-4 items-center justify-center px-8"
           >
-           <div className="flex justify-center items-center h-[35rem] flex-col px-4">
+           <div className="flex justify-center items-center h-[24rem] flex-col px-4">
      
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
         Please visit my {" "}
