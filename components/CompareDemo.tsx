@@ -7,7 +7,7 @@ export function CompareDemo() {
     <div className="p-4 border rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 px-4">
       <Compare
         firstImage="https://assets.aceternity.com/code-solution.png"
-        secondImage="http://chrisnguyen.x10host.com/images/portfolio/cover2.png"
+        secondImage="http://chrisnguyen.x10host.com/images/portfolio/cover3.png" 
         // src="/public/"
         firstImageClassName="object-cover object-left-top"
         secondImageClassname="object-cover"
