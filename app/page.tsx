@@ -21,6 +21,15 @@ import { BackgroundRippleEffectDemo } from "@/components/BackgroundRippleEffects
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 import { FollowingPointerDemo } from "@/components/FollowingPointerDemo";
+import { MacbookScrollDemo } from "@/components/MacbookScrollDemo";
+import { EncryptedTextDemo } from "@/components/EncryptedTextDemo";
+import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
+import { TerminalDemo } from "@/components/TerminalDemo";
+import { DottedGlowBackgroundDemoSecond } from "@/components/DottedGlowBackgroundDemoSecond";
+import { ImagesBadgeDemoTwo } from "@/components/ImagesBadgeDemoTwo";
+import { Globe3DDemoThird } from "@/components/Globe3DDemoThird";
+import { Globe3DDemoSecond } from "@/components/Globe3DDemoSecond";
+
 
 
 export default function Home() {
@@ -29,22 +38,18 @@ export default function Home() {
       <main className="flex flex-col items-center sm:items-start">
         <AuroraBackgroundDemo />
       </main>
-      <HeroScrollDemo/>
-      <CoverDemo />
-      <TypewriterEffectSmoothDemo />
+       <MacbookScrollDemo />
+        <GlowingEffectDemo />
+      <DottedGlowBackgroundDemoSecond />
       <div className="flex flex-col md:flex-row gap-2">
         <ThreeDCardDemo4 />
         <ThreeDCardDemo />
-        <ThreeDCardDemo2 />
       </div>
        <div className="flex flex-col md:flex-row gap-2">
+         <ThreeDCardDemo2 />
          <ThreeDCardDemo3 />
       </div>
-      <div className="flex flex-col m-4">
-       <TextGenerateEffectDemo />
-       </div>
-      <GlowingEffectDemo />
-      <LinkPreviewDemo />
+      {/* <Globe3DDemoSecond /> */}
       <FloatingDockDemo />
     </div>
   );

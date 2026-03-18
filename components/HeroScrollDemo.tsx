@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Image1 from '../public/me.png'
 import { ContainerScroll } from "./ui/container-scroll-animation";
 
 export function HeroScrollDemo() {
@@ -9,23 +10,31 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-medium text-neutral-700 dark:text-white">
+            {/* <h1 className="text-4xl font-medium text-neutral-700 dark:text-white">
               <span className="font-mono">Based in SoCal & available to</span><br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-neutral-800 font-serif">
                 work anywhere
               </span>
-            </h1>
+            </h1> */}
           </>
         }
       >
-        <img
+        {/* <img
           src={`https://images.pexels.com/photos/12422179/pexels-photo-12422179.jpeg`}
           alt="hero"
           height={720}
           width={1400}
           className="mx-auto rounded-2xl object-cover h-full object-left-top"
           draggable={false}
-        />
+        /> */}
+         <Image 
+         alt="hero"
+         height={1000}
+         width={1000}
+         className="mx-auto rounded-2xl object-cover h-full object-left-top"
+         src={Image1}
+         draggable={false}
+         />
       </ContainerScroll>
     </div>
   );

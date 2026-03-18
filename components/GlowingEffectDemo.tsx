@@ -9,22 +9,22 @@ export function GlowingEffectDemo() {
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
         icon={<Figma className="h-4 w-4 text-indigo-800" />}
-        title="Figma"
-        description="Design & UX tool"
+        title="UX"
+        description="Figma, Paper, Creative Cloud"
       />
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
         icon={<Framer className="h-4 w-4 text-indigo-800" />}
-        title="Motion"
-        description="Animation with React"
+        title="Animation"
+        description="Motion, Flow, WebP"
       />
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
         icon={<FileCode className="h-4 w-4 text-indigo-800" />}
-        title="HTML, CSS, & JS"
-        description="Front-end development"
+        title="Front-end dev"
+        description="HTML5, CSS3, & ReactJS"
       />
 
       <GridItem

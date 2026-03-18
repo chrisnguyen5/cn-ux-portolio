@@ -35,7 +35,7 @@ export function ThreeDCardDemo4() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://www.figma.com/design/6c73XLLY3D4OD5IrTCc2bR/AAA-Design-System?node-id=22896-11017&t=mvGKFB6ZUSS78vgT-1"
+            href="https://pitch-olive-80169944.figma.site"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-mono dark:text-white"
           >

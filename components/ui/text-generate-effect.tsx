@@ -62,8 +62,8 @@ export const TextGenerateEffect = ({
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-8"
       >
-       <div className="mt-4 mb-2">
-        <div className="font-serif dark:text-white text-2xl leading-snug tracking-wide">
+       <div className="mt-12 mb-2">
+        <div className="dark:text-white text-2xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

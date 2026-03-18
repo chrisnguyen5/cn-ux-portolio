@@ -63,7 +63,7 @@ export const FlipWords = ({
         )}
         key={currentWord}
       >
-        {/* edit suggested by Sajal: https://x.com/DewanganSajal */}
+        
         {currentWord.split(" ").map((word, wordIndex) => (
           <motion.span
             key={word + wordIndex}
@@ -84,7 +84,7 @@ export const FlipWords = ({
                   delay: wordIndex * 0.3 + letterIndex * 0.05,
                   duration: 0.2,
                 }}
-                className="inline-block bg-clip-text text-transparent bg-gradient-to-br from-purple-400 to-indigo-700 font-semibold font-serif"
+                className="inline-block bg-clip-text text-transparent bg-gradient-to-b from-purple-400 to-indigo-600 font-semibold font-serif"
               >
                 {letter}
               </motion.span>
