@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Image1 from '../public/me.png'
 import { Compare } from "@/components/ui/compare";
 
 export function CompareDemo() {
