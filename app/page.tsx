@@ -29,6 +29,9 @@ import { DottedGlowBackgroundDemoSecond } from "@/components/DottedGlowBackgroun
 import { ImagesBadgeDemoTwo } from "@/components/ImagesBadgeDemoTwo";
 import { Globe3DDemoThird } from "@/components/Globe3DDemoThird";
 import { Globe3DDemoSecond } from "@/components/Globe3DDemoSecond";
+import { BentoGridThirdDemo } from "@/components/BentoGridThirdDemo"; 
+import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
+import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 
 
 
@@ -41,15 +44,7 @@ export default function Home() {
        <MacbookScrollDemo />
         <GlowingEffectDemo />
       <DottedGlowBackgroundDemoSecond />
-      <div className="flex flex-col md:flex-row gap-2">
-        <ThreeDCardDemo4 />
-        <ThreeDCardDemo />
-      </div>
-       <div className="flex flex-col md:flex-row gap-2">
-         <ThreeDCardDemo2 />
-         <ThreeDCardDemo3 />
-      </div>
-      {/* <Globe3DDemoSecond /> */}
+      <HeroParallaxDemo />
       <FloatingDockDemo />
     </div>
   );
