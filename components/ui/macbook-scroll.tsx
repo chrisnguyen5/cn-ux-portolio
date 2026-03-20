@@ -29,6 +29,7 @@ import { Globe3DDemoSecond } from "../Globe3DDemoSecond";
 import { WavyBackgroundDemo } from "../WavyBackgroundDemo";
 import { BackgroundLinesDemo } from "../BackgroundLinesDemo";
 import { VortexDemo } from "../VortexDemo";
+import { LampDemo } from "../LampDemo";
 
 
 export const MacbookScroll = ({
