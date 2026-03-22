@@ -6,11 +6,11 @@ export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
 export const products = [
-    {
-    title: "AAA Travel",
-    link: "https://dist-kohl-xi.vercel.app",
+  {
+    title: "ClubNine Agents",
+    link: "#",
     thumbnail:
-      "https://i.postimg.cc/ncy61082/Screenshot-2026-03-19-at-3-25-28-PM.png",
+      "https://i.postimg.cc/mZFJY0mH/Screenshot-2026-03-22-at-4-28-58-PM.png",
   },
   {
     title: "Yamaha",
@@ -55,46 +55,39 @@ export const products = [
       "https://i.postimg.cc/vmFbcG82/Screenshot-2026-03-19-at-3-22-56-PM.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "ClubNine Luxury Travel",
+    link: "#",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "https://i.postimg.cc/Hnf6Ks3m/Screenshot-2026-03-22-at-4-25-50-PM.png",
   },
   {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    title: "AAA Travel",
+    link: "https://dist-kohl-xi.vercel.app",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "https://i.postimg.cc/ncy61082/Screenshot-2026-03-19-at-3-25-28-PM.png",
   },
   {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+    title: "Yamaha YVN",
+    link: "#",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
- 
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyamaha.9d0f9d9e.jpg&w=1080&q=75",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "BeachBody products",
+    link: "#",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbb1.f8109206.jpg&w=1080&q=75",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "Boeing Training Materials",
+    link: "#",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/invoker.png",
+      "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboeing3.fb5ea857.jpg&w=1080&q=75",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    title: "Leuxs Ct",
+    link: "#",
     thumbnail:
-      "https://www.aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fct2.bd3d8c0a.jpg&w=1080&q=75",
   },
 ];
