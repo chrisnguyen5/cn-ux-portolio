@@ -1,5 +1,6 @@
 import React from "react";
 import { Vortex } from "./ui/vortex";
+import { ImagesBadgeDemoTwo } from "./ImagesBadgeDemoTwo";
 
 export function VortexDemo() {
   return (
@@ -9,11 +10,11 @@ export function VortexDemo() {
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
-          Available now
-        </h2>
+          Take a peak.</h2>
         <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-          for remote work
+         into my files.
         </p>
+        <ImagesBadgeDemoTwo />
       </Vortex>
     </div>
   );

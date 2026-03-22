@@ -28,6 +28,8 @@ import { Globe3DDemoSecond } from "@/components/Globe3DDemoSecond";
 import { BentoGridThirdDemo } from "@/components/BentoGridThirdDemo"; 
 import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
+import { BackgroundLinesDemo } from "@/components/BackgroundLinesDemo";
+import { DotBackgroundDemo } from "@/components/DotBackgroundDemo";
 
 
 
@@ -41,6 +43,7 @@ export default function Home() {
         <GlowingEffectDemo />
       <DottedGlowBackgroundDemoSecond />
       <HeroParallaxDemo />
+      <DotBackgroundDemo />
       <FloatingDockDemo />
     </div>
   );
