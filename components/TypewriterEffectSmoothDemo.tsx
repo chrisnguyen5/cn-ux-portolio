@@ -3,31 +3,25 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 export function TypewriterEffectSmoothDemo() {
   const words = [
     {
-      text: "Please",
+      text: "Take",
+      className: "text-white text-2xl md:text-6xl font-bold text-center",
     },
     {
-      text: "hover",
+      text: "a",
+      className: "text-white text-2xl md:text-6xl font-bold text-center",
     },
     {
-      text: "around",
+      text: "Peak",
+      className: "text-white text-2xl md:text-6xl font-bold text-center",
     },
     {
-      text: "to",
-    },
-    {
-      text: "see details.",
-      className: "bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500 font-serif",
+      text: "!",
+      className: "text-white text-2xl md:text-6xl font-bold text-center",
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[20rem]">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base ">
-        Below are some projects that I previously worked on.
-      </p>
+    <div className="flex flex-col items-center justify-center">
       <TypewriterEffectSmooth words={words} />
-      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-       
-      </div>
     </div>
   );
 }

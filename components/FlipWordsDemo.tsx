@@ -12,7 +12,7 @@ export function FlipWordsDemo() {
       I'm Chris, a <span className="font-serif italic">UX designer/developer</span>. 
       <br/>
         I build
-        <FlipWords words={words} />experiences within the <span className="font-serif italic">AI</span> era.
+        <FlipWords words={words} />experiences with <span className="font-serif italic">AI</span> tools.
       </div>
     </div>
   );

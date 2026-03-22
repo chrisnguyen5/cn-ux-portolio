@@ -1,7 +1,6 @@
 import React from "react";
 import { Cover } from "@/components/ui/cover";
 import { CompareDemo } from "./CompareDemo";
-import { CardStackDemo } from "./CardStackDemo";
 
 export function CoverDemo() {
   return (
@@ -10,7 +9,6 @@ export function CoverDemo() {
       <span className="">About Me</span>: <br /> I <Cover>design</Cover> & 
       <Cover>code</Cover> web apps from scratch.
       </h1>
-      <CardStackDemo />
     </div>
   );
 }
