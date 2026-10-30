@@ -30,6 +30,12 @@ import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { BackgroundLinesDemo } from "@/components/BackgroundLinesDemo";
 import { DotBackgroundDemo } from "@/components/DotBackgroundDemo";
+import { SidebarDemo } from "@/components/SidebarDemo";
+import { TimelineDemo } from "@/components/TimelineDemo";
+import { PointerHighlightDemo } from "@/components/PointerHighlightDemo";
+import { BackgroundCubesGridDemo } from "@/components/BackgroundCubesGridDemo";
+import { BentoGrid } from "@/components/ui/bento-grid";
+import { HeroSectionOne } from "@/components/HeroSectionOne";
 
 
 
@@ -37,14 +43,15 @@ export default function Home() {
   return (
     <div className="grid  items-center justify-items-center min-h-screen pb-20">
       <main className="flex flex-col items-center sm:items-start">
-        <AuroraBackgroundDemo />
       </main>
-       <MacbookScrollDemo />
+       <AuroraBackgroundDemo />
         <GlowingEffectDemo />
       <DottedGlowBackgroundDemoSecond />
-      <HeroParallaxDemo />
+       {/* <BackgroundCubesGridDemo /> */}
+       <HeroParallaxDemo />
+       <HeroSectionOne />
+       <MacbookScrollDemo />
       <DotBackgroundDemo />
-      <FloatingDockDemo />
     </div>
   );
 }

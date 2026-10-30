@@ -30,6 +30,9 @@ import { WavyBackgroundDemo } from "../WavyBackgroundDemo";
 import { BackgroundLinesDemo } from "../BackgroundLinesDemo";
 import { VortexDemo } from "../VortexDemo";
 import { LampDemo } from "../LampDemo";
+import { CloudShaderDemo } from "../CloudShaderDemo";
+import { SpotlightPreview } from "../SpotlightPreview";
+import { SpotlightNewDemo } from "../SpotlightNewDemo";
 
 
 export const MacbookScroll = ({
@@ -174,7 +177,9 @@ export const Lid = ({
           alt="me"
           className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top"
         /> */}
-        <VortexDemo />
+        {/* <CloudShaderDemo /> */}
+        {/* <VortexDemo /> */}
+        <SpotlightNewDemo />
       </motion.div>
     </div>
   );

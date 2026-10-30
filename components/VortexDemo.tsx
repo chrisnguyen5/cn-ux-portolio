@@ -2,6 +2,7 @@ import React from "react";
 import { Vortex } from "./ui/vortex";
 import { ImagesBadgeDemoTwo } from "./ImagesBadgeDemoTwo";
 import { CardStackDemo } from "./CardStackDemo";
+import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 
 export function VortexDemo() {
   return (
@@ -11,12 +12,12 @@ export function VortexDemo() {
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
   
-        <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
-          Take a peak</h2>
+        <h2 className="text-white text-2xl md:text-6xl font-semibold text-center font-serif italic">
+          Your search</h2>
         <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-         into my work.
+          begins here.
         </p>
-        <ImagesBadgeDemoTwo />
+        <FloatingDockDemo />
       </Vortex>
     </div>
   );

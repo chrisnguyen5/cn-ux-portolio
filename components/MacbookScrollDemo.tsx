@@ -7,7 +7,7 @@ export function MacbookScrollDemo() {
       <MacbookScroll
         title={
           <span>
-          Located in SoCal😎🌴 & available for remote work.
+          {/* Located in SoCal😎🌴 & available for remote work. */}
           </span>
         }
         // badge={
