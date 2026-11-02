@@ -14,6 +14,8 @@ import { TextGenerateEffectDemo } from "./TextGenerateEffectDemo";
 import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
 import { ImagesBadgeDemoTwo } from "./ImagesBadgeDemoTwo";
 import { NoiseBackgroundDemo } from "./NoiseBackgroundDemo";
+import { PointerHighlightDemo } from "./PointerHighlightDemo";
+import { GlowingEffectDemo } from "./GlowingEffectDemo";
 
 export function AuroraBackgroundDemo() {
   return (
@@ -40,7 +42,6 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-1 items-center justify-center px-1"
       >
-        <NoiseBackgroundDemo />
       </motion.div>
     </AuroraBackground>
   );

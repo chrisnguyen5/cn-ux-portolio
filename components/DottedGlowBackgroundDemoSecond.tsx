@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import { TerminalDemo } from "@/components/TerminalDemo";
 import { CoverDemo } from "@/components/CoverDemo";

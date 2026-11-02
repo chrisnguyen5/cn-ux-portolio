@@ -2,9 +2,20 @@
 
 import { Figma, Lock, Search, FileCode, Sparkles, Framer, GitBranch } from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
+import { motion } from "framer-motion";
 
 export function GlowingEffectDemo() {
   return (
+     <motion.div
+            initial={{ opacity: 0.0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.4,
+              duration: 0.9,
+              ease: "easeInOut",
+            }}
+            className=""
+          >
     <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
@@ -41,6 +52,7 @@ export function GlowingEffectDemo() {
         description="Github, BitBucket, Git"
       />
     </ul>
+    </motion.div>
   );
 }
 
@@ -70,10 +82,10 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
               {icon}
             </div>
             <div className="space-y-3">
-              <h3 className="-tracking-4 pt-0.5 font-mono text-xl/[1.375rem] font-semibold text-balance text-gray-800 md:text-2xl/[1.875rem] dark:text-white">
+              <h3 className="-tracking-4 pt-0.5 font-serif italic text-xl/[1.375rem] font-semibold text-balance text-gray-800 md:text-2xl/[1.875rem] dark:text-white">
                 {title}
               </h3>
-              <h2 className="font-serif text-sm/[1.125rem] text-gray-500 md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
+              <h2 className="text-sm/[1.125rem] text-gray-500 md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
                 {description}
               </h2>
             </div>

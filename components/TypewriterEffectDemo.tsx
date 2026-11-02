@@ -5,23 +5,16 @@ import { AnimatedModalDemo } from "./AnimatedModalDemo";
 export function TypewriterEffectDemo() {
   const words = [
     {
-      text: "What",
-    },
-    {
-      text: "are",
-    },
-    {
-      text: "we",
-    },
-    {
-      text: "waiting",
-    },
-    {
-      text: "for?",
-    },
-    {
       text: "Let's",
-      className: "text-gray-500 dark:text-gray-500",
+      className: "font-serif italic",
+    },
+    {
+      text: "connect",
+      className: "font-serif italic",
+    },
+    {
+      text: "&",
+      className: "font-serif italic",
     },
     {
       text: "build",
