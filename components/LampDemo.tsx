@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { LampContainer } from "./ui/lamp";
+import { TerminalDemo } from "./TerminalDemo";
 
 export function LampDemo() {
   return (
@@ -16,7 +17,7 @@ export function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Build lamps <br /> the right way
+       {/* <TerminalDemo /> */}
       </motion.h1>
     </LampContainer>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { Figma, Lock, Search, FileCode, Sparkles, Framer, GitBranch } from "lucide-react";
+import { Figma, CodeXml, Search, FileCode, Sparkles, Framer, GitBranch } from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { motion } from "framer-motion";
 
@@ -21,7 +21,7 @@ export function GlowingEffectDemo() {
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
         icon={<Figma className="h-4 w-4 text-indigo-800" />}
         title="UX"
-        description="Figma, Paper, Creative Cloud"
+        description="Figma, Creative Cloud, Paper"
       />
 
       <GridItem
@@ -33,7 +33,7 @@ export function GlowingEffectDemo() {
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
-        icon={<FileCode className="h-4 w-4 text-indigo-800" />}
+        icon={<CodeXml className="h-4 w-4 text-indigo-800" />}
         title="Front-end dev"
         description="HTML5, CSS3, & ReactJS"
       />
@@ -66,7 +66,7 @@ interface GridItemProps {
 const GridItem = ({ area, icon, title, description }: GridItemProps) => {
   return (
     <li className={`min-h-[14rem] list-none ${area}`}>
-      <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
+      <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3 bg-white">
         <GlowingEffect
           blur={0}
           borderWidth={3}
@@ -78,7 +78,7 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
         />
         <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
           <div className="relative flex flex-1 flex-col justify-between gap-3">
-            <div className="w-fit rounded-lg border border-gray-300 p-2">
+            <div className="w-fit rounded-lg p-2 bg-purple-50">
               {icon}
             </div>
             <div className="space-y-3">

@@ -56,7 +56,7 @@ export const products = [
   },
   {
     title: "ClubNine Luxury Travel",
-    link: "#",
+    link: "https://fond-skier-39045354.figma.site/",
     thumbnail:
       "https://i.postimg.cc/Hnf6Ks3m/Screenshot-2026-03-22-at-4-25-50-PM.png",
   },
@@ -68,13 +68,13 @@ export const products = [
   },
   {
     title: "Yamaha YVN",
-    link: "#",
+    link: "https://www.yamaha.com/us/yvn/",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyamaha.9d0f9d9e.jpg&w=1080&q=75",
   },
   {
     title: "BeachBody products",
-    link: "#",
+    link: "https://www.bodi.com/?referringDomain=www.beachbody.com",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbb1.f8109206.jpg&w=1080&q=75",
   },
@@ -86,7 +86,7 @@ export const products = [
   },
   {
     title: "Leuxs Ct",
-    link: "#",
+    link: "https://vimeo.com/33738006",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fct2.bd3d8c0a.jpg&w=1080&q=75",
   },

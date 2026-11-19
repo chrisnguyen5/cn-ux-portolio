@@ -8,7 +8,6 @@ import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
 import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
-import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { LayoutGridDemo } from "@/components/LayoutGridDemo";
 import { GlowingEffectDemo } from "@/components/GlowingEffectDemo";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
@@ -23,8 +22,6 @@ import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
 import { TerminalDemo } from "@/components/TerminalDemo";
 import { DottedGlowBackgroundDemoSecond } from "@/components/DottedGlowBackgroundDemoSecond";
 import { ImagesBadgeDemoTwo } from "@/components/ImagesBadgeDemoTwo";
-import { Globe3DDemoThird } from "@/components/Globe3DDemoThird";
-import { Globe3DDemoSecond } from "@/components/Globe3DDemoSecond";
 import { BentoGridThirdDemo } from "@/components/BentoGridThirdDemo"; 
 import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
@@ -36,6 +33,14 @@ import { PointerHighlightDemo } from "@/components/PointerHighlightDemo";
 import { BackgroundCubesGridDemo } from "@/components/BackgroundCubesGridDemo";
 import { BentoGrid } from "@/components/ui/bento-grid";
 import { HeroSectionOne } from "@/components/HeroSectionOne";
+import { BackgroundBeamsWithCollisionDemo } from "@/components/BackgroundBeamsWithCollisionDemo";
+import { CloudShaderHeroDemo } from "@/components/CloudShaderDemo";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { FeyCards } from "@/blocks/fey-cards";
+import { WobbleCardDemo } from "@/components/WobbleCardDemo"; 
+import { FeaturesSectionDemo } from "@/components/FeaturesSectionDemo";
+import { Globe3DDemoThird } from "@/components/Globe3DDemoThird";
+
 
 
 
@@ -45,13 +50,12 @@ export default function Home() {
       <main className="flex flex-col items-center sm:items-start">
       </main>
        <AuroraBackgroundDemo />
-        <GlowingEffectDemo />
-      <DottedGlowBackgroundDemoSecond />
-       {/* <BackgroundCubesGridDemo /> */}
-       <HeroParallaxDemo />
-       <HeroSectionOne />
-       <MacbookScrollDemo />
-      <DotBackgroundDemo />
+       <BackgroundBeamsWithCollisionDemo />
+        <HeroParallaxDemo />
+          <CloudShaderHeroDemo />
+          <MacbookScrollDemo /> 
+          <InfiniteMovingCardsDemo />
+          <HeroSectionOne />
     </div>
   );
 }

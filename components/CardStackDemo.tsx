@@ -32,34 +32,32 @@ export const Highlight = ({
 const CARDS = [
   {
     id: 0,
-    name: "Designing with AI tools",
-    designation: "Phase 1",
+    name: "Ways to reach me",
+    designation: "Option 1",
     content: (
       <p>
-        Currently learning how to <Highlight>Vibe design</Highlight> with Google Stitch, Paper, & Figma Make 🙏
+         <Highlight>✉️Email:</Highlight> chrisnguyen5@gmail.com
       </p>
     ),
   },
   {
     id: 1,
-    name: "Coding with AI IDEs",
-    designation: "Phase 2",
+    name: "Ways to reach me",
+    designation: "Option 2",
     content: (
       <p>
-       Now{" "}
-        <Highlight>vibe coding</Highlight> is a thing <Highlight>I guess</Highlight>.
+        <Highlight>📱Phone:</Highlight> 714.400.1432
       </p>
     ),
   },
-  {
-    id: 2,
-    name: "Adapting to the AI era",
-    designation: "Phase 3",
-    content: (
-      <p>
-        Become an
-        <Highlight>AI robot</Highlight> in the near future.
-      </p>
-    ),
-  },
+  // {
+  //   id: 2,
+  //   name: "Ways to reach me",
+  //   designation: "Option 3",
+  //   content: (
+  //     <p>
+  //       <Highlight>LinkedIn:</Highlight> url link📱
+  //     </p>
+  //   ),
+  // },
 ];

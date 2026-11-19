@@ -6,7 +6,8 @@ import { Webhook } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BackgroundCubesGrid } from "@/components/ui/background-cubes-grid";
 import { PointerHighlightDemo } from "@/components/PointerHighlightDemo";
-import { MacbookScrollDemo } from "@/components/MacbookScrollDemo";
+import { TypewriterEffectDemo } from "./TypewriterEffectDemo";
+import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 
 // Brand paths from simple-icons (CC0), viewBox 0 0 24 24.
 const ICONS = {
@@ -148,7 +149,7 @@ function HeroContent({ tone }: { tone: HeroTone }) {
       <motion.p {...fadeUp(0.9)} className={cn("mt-4 text-[13px]", t.note)}>
         Free for up to 5 seats · No credit card required
       </motion.p> */}
-      <PointerHighlightDemo />
+      {/* <StickyScrollRevealDemo /> */}
     </div>
   );
 }

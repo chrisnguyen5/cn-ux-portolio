@@ -30,9 +30,17 @@ import { WavyBackgroundDemo } from "../WavyBackgroundDemo";
 import { BackgroundLinesDemo } from "../BackgroundLinesDemo";
 import { VortexDemo } from "../VortexDemo";
 import { LampDemo } from "../LampDemo";
-import { CloudShaderDemo } from "../CloudShaderDemo";
 import { SpotlightPreview } from "../SpotlightPreview";
 import { SpotlightNewDemo } from "../SpotlightNewDemo";
+import { BackgroundBoxesDemo } from "../BackgroundBoxesDemo";
+import { Globe3DDemoThird } from "../Globe3DDemoThird";
+import { FeaturesSectionDemo } from "../FeaturesSectionDemo";
+import { TerminalDemo } from "../TerminalDemo"; 
+import { BackgroundBeamsDemo } from "../BackgroundBeamsDemo";
+import { StickyScrollRevealDemo } from "../StickyScrollRevealDemo";
+import { PlaceholdersAndVanishInputDemo } from "../PlaceholdersAndVanishInputDemo";
+import { CloudShaderHeroDemo } from "../CloudShaderDemo";
+import { CloudMacDemo } from "../CloudMacDemo";
 
 
 export const MacbookScroll = ({
@@ -177,9 +185,7 @@ export const Lid = ({
           alt="me"
           className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top"
         /> */}
-        {/* <CloudShaderDemo /> */}
-        {/* <VortexDemo /> */}
-        <SpotlightNewDemo />
+       <CloudMacDemo />
       </motion.div>
     </div>
   );
