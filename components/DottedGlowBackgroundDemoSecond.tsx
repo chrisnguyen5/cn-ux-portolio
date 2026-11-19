@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import { TerminalDemo } from "@/components/TerminalDemo";
 import { CoverDemo } from "@/components/CoverDemo";
+import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
+import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 
 export function DottedGlowBackgroundDemoSecond() {
   return (
@@ -22,9 +24,8 @@ export function DottedGlowBackgroundDemoSecond() {
         speedScale={1}
       />
 
-      <div className="relative z-10 flex w-full flex-col items-center justify-between space-y-6 px-8 py-16 text-center md:flex-row">
-       <CoverDemo />
-       <TerminalDemo />
+      <div className="relative z-10 flex w-full flex-col items-center justify-between space-y-6 px-8 py-16 text-center md:flex-col">
+      <StickyScrollRevealDemo />
       </div>
     </div>
   );

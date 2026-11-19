@@ -104,10 +104,10 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        Please see my <br /> featured work
+      <h1 className="text-2xl md:text-7xl text-gray-700">
+        Please see my <br/><span className="font-bold font-serif italic">featured work</span>
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+      <p className="max-w-2xl text-base md:text-xl mt-8 text-gray-600">
         I love building beautiful products with the latest technologies and frameworks. 
         Most of my projects were completley designed and build by me solely.
       </p>

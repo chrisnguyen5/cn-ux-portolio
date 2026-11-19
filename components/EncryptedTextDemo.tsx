@@ -5,11 +5,10 @@ import React from "react";
 
 export function EncryptedTextDemo() {
   return (
-    <div className="mx-auto flex justify-center text-2xl md:text-2xl  max-w-7xl">
-      <p className="text-center text-neutral-700 dark:text-neutral-300">
-        If you're interested in collaborating, let's connect:{" "}<br/><br/>  
-        <EncryptedText text="chrisnguyen5@gmail.com" />
-      </p>
+    <div className="">
+     <h2 className="mb-4 max-w-2xl text-2xl font-extrabold tracking-tight text-balance text-neutral-900 md:text-5xl lg:text-6xl dark:text-white">
+        <EncryptedText text="Got a problem worth solving?" />
+      </h2>
     </div>
   );
 }

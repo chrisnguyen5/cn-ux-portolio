@@ -1,12 +1,13 @@
 "use client";
 import WorldMap from "@/components/ui/world-map";
 import { motion } from "motion/react";
+import { EncryptedTextDemo } from "./EncryptedTextDemo";
 
 export function WorldMapDemo() {
   return (
-    <div className=" py-40 dark:bg-black bg-white w-full">
+    <div className=" py-12 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
-        <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
+        {/* <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
           Based in Southern{" "}
           <span className="text-neutral-400">
             {"California".split("").map((word, idx) => (
@@ -24,7 +25,7 @@ export function WorldMapDemo() {
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
           Available to work remotely anywhere.
-        </p>
+        </p> */}
       </div>
       <WorldMap
         dots={[

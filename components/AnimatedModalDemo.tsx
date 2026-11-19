@@ -42,7 +42,7 @@ export function AnimatedModalDemo() {
             </h4>
             <CardStackDemo />
             <div className="flex justify-center items-center mt-10">
-              <EncryptedTextDemo />
+             
             </div>
           </ModalContent>
         </ModalBody>
