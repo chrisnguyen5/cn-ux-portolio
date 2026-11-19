@@ -4,7 +4,6 @@ import { Boxes } from "./ui/background-boxes";
 import { cn } from "@/lib/utils";
 import { FloatingDockDemo } from "./FloatingDockDemo";
 import { WorldMapDemo } from "./WorldMapDemo"; 
-import { Globe3DDemoSecond } from "./Globe3DDemoSecond";
 import { Globe } from "lucide-react";
 import { TerminalDemo } from "./TerminalDemo";
 
