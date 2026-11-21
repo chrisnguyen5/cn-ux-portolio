@@ -8,31 +8,31 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "ClubNine Agents",
-    link: "#",
+    link: "https://fond-skier-39045354.figma.site/",
     thumbnail:
       "https://i.postimg.cc/mZFJY0mH/Screenshot-2026-03-22-at-4-28-58-PM.png",
   },
   {
     title: "Yamaha",
-    link: "https://chrisnguyen.vercel.app/projects/yamaha",
+    link: "https://www.yamaha.com/us/yvn/",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyamaha1.b64565e5.jpg&w=2048&q=75",
   },
   {
     title: "Boeing",
-    link: "https://chrisnguyen.vercel.app/projects/boeing",
+    link: "https://www.boeing.com/",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboeing.3eaa01f2.jpg&w=2048&q=75",
   },
   {
     title: "Beachbody",
-    link: "https://chrisnguyen.vercel.app/projects/beachbody",
+    link: "https://www.bodi.com/",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbb.6c84ad23.jpg&w=2048&q=75",
   },
   {
     title: "Lexus Ct App",
-    link: "https://chrisnguyen.vercel.app/projects/lexus",
+    link: "https://vimeo.com/33738006",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fct.20785d94.jpg&w=2048&q=75",
   },
@@ -80,7 +80,7 @@ export const products = [
   },
   {
     title: "Boeing Training Materials",
-    link: "#",
+    link: "https://www.boeing.com/",
     thumbnail:
       "https://chrisnguyen.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboeing3.fb5ea857.jpg&w=1080&q=75",
   },
