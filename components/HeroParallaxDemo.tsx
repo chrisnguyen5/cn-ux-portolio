@@ -44,7 +44,7 @@ export const products = [
   },
  {
     title: "Modern Matcha",
-    link: "http://mrdncha.com",
+    link: "http://chrisnguyen.x10host.com/mdrnmcha/",
     thumbnail:
       "https://i.postimg.cc/BQBxhnkM/Screenshot-2026-03-19-at-3-15-29-PM.png",
   },
