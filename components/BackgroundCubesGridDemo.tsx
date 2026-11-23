@@ -8,6 +8,7 @@ import { BackgroundCubesGrid } from "@/components/ui/background-cubes-grid";
 import { PointerHighlightDemo } from "@/components/PointerHighlightDemo";
 import { TypewriterEffectDemo } from "./TypewriterEffectDemo";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
+import { AnimatedModalDemo } from "./AnimatedModalDemo";
 
 // Brand paths from simple-icons (CC0), viewBox 0 0 24 24.
 const ICONS = {
@@ -150,6 +151,58 @@ function HeroContent({ tone }: { tone: HeroTone }) {
         Free for up to 5 seats · No credit card required
       </motion.p> */}
       {/* <StickyScrollRevealDemo /> */}
+      <div className="px-4 py-10 md:py-20">
+        <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
+          {"Got a problem worth solving?"
+            .split(" ")
+            .map((word, index) => (
+              <motion.span
+                key={index}
+                initial={{ opacity: 0, filter: "blur(4px)", y: 10 }}
+                animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+                transition={{
+                  duration: 0.3,
+                  delay: index * 0.1,
+                  ease: "easeInOut",
+                }}
+                className="mr-2 inline-block"
+              >
+                {word}
+              </motion.span>
+            ))}
+        </h1>
+        <motion.p
+          initial={{
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            duration: 0.3,
+            delay: 0.8,
+          }}
+          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
+        >
+          Whether you’re hiring, collaborating, or just curious about my process, my inbox is open.
+        </motion.p>
+        <motion.div
+          initial={{
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            duration: 0.3,
+            delay: 1,
+          }}
+          className="relative z-10 mt-2 flex flex-wrap items-center justify-center gap-4"
+        >
+           <AnimatedModalDemo />
+        </motion.div>
+        
+      </div>
     </div>
   );
 }
